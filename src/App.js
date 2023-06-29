@@ -75,7 +75,7 @@ function App() {
             {/* <div className="about-container" /> */}
             <div className="left-about">
               <h4>Information About me</h4>
-            
+
               <p>
                 As a computer science and engineering student at NIT Durgapur, I have discovered my passion for
                 web development and coding. What sets me apart is my unwavering commitment to developing
@@ -201,7 +201,34 @@ function App() {
                   </div>
                 </div>
               </div>
+              <div className="portfolio-item">
+                <div className="image">
+                  <img src="./images/Project.png" alt="" />
+                </div>
+                <div className="hover-items">
+                  <h3>Project Source</h3>
+                  <div className="icons">
+                    <a href="https://sonalinandi023.github.io/myMovie/" target="_blank" className="icon">
+                      <i className="fab fa-github"></i>
+                    </a>
 
+                  </div>
+                </div>
+              </div>
+              <div className="portfolio-item">
+                <div className="image">
+                  <img src="./images/project1" alt="" />
+                </div>
+                <div className="hover-items">
+                  <h3>Project Source</h3>
+                  <div className="icons">
+                    <a href="https://sonalinandi023.github.io/myMovie/" target="_blank" className="icon">
+                      <i className="fab fa-github"></i>
+                    </a>
+
+                  </div>
+                </div>
+              </div>
             </div>
           </section>
 
@@ -278,11 +305,11 @@ function App() {
                 <div className="right-contact">
                   <form action="" className="contact-form" id='myform'>
                     <div className="input-control i-c-2">
-                      <input type="text" required placeholder="YOUR NAME" id='name'/>
-                      <input type="email" required placeholder="YOUR EMAIL" id='mail'/>
+                      <input type="text" required placeholder="YOUR NAME" id='name' />
+                      <input type="email" required placeholder="YOUR EMAIL" id='mail' />
                     </div>
                     <div className="input-control">
-                      <input type="text" required placeholder="ENTER SUBJECT" id='subject' autoComplete='given-name'/>
+                      <input type="text" required placeholder="ENTER SUBJECT" id='subject' autoComplete='given-name' />
                     </div>
                     <div className="input-control">
                       <textarea name="" id="message" cols="15" rows="8" placeholder="Message Here..."></textarea>
@@ -293,7 +320,7 @@ function App() {
                         <span className="btn-icon"><i className="fas fa-download"></i></span>
                       </a>
                     </div>
-                    </form >
+                  </form >
                 </div>
               </div>
             </div>
@@ -301,17 +328,17 @@ function App() {
         </main>
 
         <div className="controls">
-          <div  onClick={myfunc2} className="control active-btn" data-id="home">
+          <div onClick={myfunc2} className="control active-btn" data-id="home">
             <i className="fas fa-home"></i>
           </div>
-          <div  onClick={myfunc2} className="control" data-id="about">
+          <div onClick={myfunc2} className="control" data-id="about">
             <i className="fas fa-user"></i>
           </div>
-          <div  onClick={myfunc2} className="control" data-id="portfolio">
+          <div onClick={myfunc2} className="control" data-id="portfolio">
             <i className="fas fa-briefcase"></i>
           </div>
 
-          <div  onClick={myfunc2} className="control" data-id="contact">
+          <div onClick={myfunc2} className="control" data-id="contact">
             <i className="fas fa-envelope-open"></i>
           </div>
         </div>
