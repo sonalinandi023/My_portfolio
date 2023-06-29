@@ -217,7 +217,7 @@ function App() {
               </div>
               <div className="portfolio-item">
                 <div className="image">
-                  <img src="./images/project1" alt="" />
+                  <img src="./images/project1.png" alt="" />
                 </div>
                 <div className="hover-items">
                   <h3>Project Source</h3>
