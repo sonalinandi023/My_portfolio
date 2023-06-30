@@ -45,7 +45,7 @@
     color: var(--color-white);
     transition: all 0.4s ease-in-out;
   }
-  
+ 
   a {
     display: inline-block;
     text-decoration: none;

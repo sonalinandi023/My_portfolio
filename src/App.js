@@ -1,30 +1,17 @@
-import React, { useEffect } from 'react';
-
+import React from 'react';
 import './styles.css';
 import './script.js';
 import './media.scss';
 import './styles.scss';
+// import image2 from'./images/img2.jpg';
+import image1 from './images/img1.jpg';
+import image3 from './images/img3.jpg';
+import image4 from './images/img4.jpg';
+import image5 from './images/project1.png';
+import image6 from './images/Project.png';
+import image7 from './images/img7.jpeg';
+
 function App() {
-  // useEffect(() => {
-
-  //   const themeButton = document.querySelector(".theme-btn");
-  //   if (themeButton) {
-  //     themeButton.addEventListener("click", () => {
-  //       document.body.classList.toggle("light-mode");
-  //     });
-  //   }
-
-
-  //   document.querySelectorAll(".control").forEach(button => {
-  //     button.addEventListener("click", function () {
-  //       document.querySelector(".active-btn").classList.remove("active-btn");
-  //       this.classList.add("active-btn");
-  //       document.querySelector(".active").classList.remove("active");
-  //       document.getElementById(button.dataset.id).classList.add("active");
-  //     });
-  //   });
-  // }, []); // Empty dependency array to run the effect only once
-
 
   function myfunc() {
     document.body.classList.toggle("light-mode");
@@ -39,11 +26,26 @@ function App() {
 
   return (
     <>
-      <div className="main-content">
-        <header className="container header active" id="home">
-          <div className="header-content">
 
+
+
+      <div className="main-content">
+     
+        <header className="container header active" id="home">
+        
+          <div className="header-content">
+           
+            <div className="left-header">
+              <div className="h-shape"></div>
+              <div className="image">
+                 
+                <img src={image7} alt="" />
+               
+              </div>
+            </div>
+            
             <div className="right-header">
+            
               <h1 className="name">
                 Hi, I'm <span>Sonali Nandi</span>
               </h1>
@@ -57,12 +59,6 @@ function App() {
                   <span className="btn-text"> Download CV</span>
                   <span className="btn-icon"><i className="fas fa-download"></i></span>
                 </a>
-              </div>
-            </div>
-            <div className="left-header">
-              <div className="h-shape"></div>
-              <div className="image">
-                <img src="./images/img2.jpg" alt="" />
               </div>
             </div>
           </div>
@@ -162,7 +158,7 @@ function App() {
             <div className="portfolios">
               <div className="portfolio-item">
                 <div className="image">
-                  <img src="./images/img3.jpg" alt="" />
+                  <img src={image3} alt="" />
                 </div>
                 <div className="hover-items">
                   <h3>Project Source</h3>
@@ -176,7 +172,7 @@ function App() {
               </div>
               <div className="portfolio-item">
                 <div className="image">
-                  <img src="./images/img4.jpg" alt="" />
+                  <img src={image4} alt="" />
                 </div>
                 <div className="hover-items">
                   <h3>Project Source</h3>
@@ -189,7 +185,7 @@ function App() {
               </div>
               <div className="portfolio-item">
                 <div className="image">
-                  <img src="./images/img1.jpg" alt="" />
+                  <img src={image1} alt="" />
                 </div>
                 <div className="hover-items">
                   <h3>Project Source</h3>
@@ -203,12 +199,12 @@ function App() {
               </div>
               <div className="portfolio-item">
                 <div className="image">
-                  <img src="./images/Project.png" alt="" />
+                  <img src={image6} alt="" />
                 </div>
                 <div className="hover-items">
                   <h3>Project Source</h3>
                   <div className="icons">
-                    <a href="https://sonalinandi023.github.io/myMovie/" target="_blank" className="icon">
+                    <a href="https://sonalinandi023.github.io/Calculator/" target="_blank" className="icon">
                       <i className="fab fa-github"></i>
                     </a>
 
@@ -217,12 +213,12 @@ function App() {
               </div>
               <div className="portfolio-item">
                 <div className="image">
-                  <img src="./images/project1.png" alt="" />
+                  <img src={image5} alt="" />
                 </div>
                 <div className="hover-items">
                   <h3>Project Source</h3>
                   <div className="icons">
-                    <a href="https://sonalinandi023.github.io/myMovie/" target="_blank" className="icon">
+                    <a href="https://sonalinandi023.github.io/TICTACTOE_GAME/" target="_blank" className="icon">
                       <i className="fab fa-github"></i>
                     </a>
 
