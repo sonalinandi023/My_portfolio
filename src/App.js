@@ -48,13 +48,13 @@ function App() {
               <h1 className="name">
                 Hi, I'm <span>Sonali Nandi</span>
               </h1>
-              <p> I'm a passionate engineering student ,web developer and a coder.I have a strong foundation in
+              <p> I'm a passionate engineering student ,web developer and a coder.<br></br> I have a strong foundation in
                 programming languages such as C/C++,Python,javascript and have experience building websites from
                 scratch.
 
               </p>
               <div className="btn-con">
-                <a href="https://drive.google.com/file/d/113P8DnCh4U2QaTZlD0oRdAOqGCEygwas/view?usp=sharing" className="main-btn">
+                <a href="https://drive.google.com/file/d/1qKOdFc_GwjgGvlhsk0BP0iJaqFp6MSeB/view?usp=sharing" className="main-btn">
                   <span className="btn-text"> Download CV</span>
                   <span className="btn-icon"><i className="fas fa-download"></i></span>
                 </a>
@@ -87,7 +87,7 @@ function App() {
 
               </p>
               <div className="btn-con">
-                <a href="https://drive.google.com/file/d/113P8DnCh4U2QaTZlD0oRdAOqGCEygwas/view?usp=sharing" className="main-btn">
+                <a href="https://drive.google.com/file/d/1qKOdFc_GwjgGvlhsk0BP0iJaqFp6MSeB/view?usp=sharing" className="main-btn">
                   <span className="btn-text">Download CV</span>
                   <span className="btn-icon"><i className="fas fa-download"></i></span>
                 </a>
@@ -310,7 +310,7 @@ function App() {
                       <textarea name="" id="message" cols="15" rows="8" placeholder="Message Here..."></textarea>
                     </div>
                     <div className="submit-btn">
-                      <a href="https://drive.google.com/file/d/113P8DnCh4U2QaTZlD0oRdAOqGCEygwas/view?usp=sharing" className="main-btn">
+                      <a href="https://drive.google.com/file/d/1qKOdFc_GwjgGvlhsk0BP0iJaqFp6MSeB/view?usp=sharing" className="main-btn">
                         <span className="btn-text">Download CV</span>
                         <span className="btn-icon"><i className="fas fa-download"></i></span>
                       </a>

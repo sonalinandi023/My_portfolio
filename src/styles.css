@@ -214,7 +214,7 @@
     height: 100%;
     object-fit: cover;
     transition: all 0.4s ease-in-out;
-    border-radius: 17px;
+    border-radius: 10px;
        
   }
   .header-content .left-header .image img:hover{
@@ -626,7 +626,7 @@
   }
   .contact-content-con .right-contact {
     flex: 3;
-    margin-left: 3rem;
+    margin-left: 1rem;
   }
   .contact-content-con .right-contact .input-control {
     margin: 1.5rem 0;
@@ -648,7 +648,7 @@
     display: flex;
   }
   .contact-content-con .right-contact .i-c-2 :last-child {
-    margin-left: 1.5rem;
+    margin-left: 1 rem;
   }
   .contact-content-con .right-contact .submit-btn {
     display: flex;
