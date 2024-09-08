@@ -3,7 +3,6 @@ import './styles.css';
 import './script.js';
 import './media.scss';
 import './styles.scss';
-// import image2 from'./images/img2.jpg';
 import image1 from './images/img1.jpg';
 import image3 from './images/img3.jpg';
 import image4 from './images/img4.jpg';
